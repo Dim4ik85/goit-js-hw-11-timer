@@ -1,13 +1,13 @@
 {
   "name": "goit-js-hw-11-timer",
   "version": "1.0.0",
-  "description": "Таймер",
+  "description": "Timer",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/index.html --public-url /goit-js-hw-11-timer/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
